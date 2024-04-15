@@ -5,28 +5,28 @@
 Etapas por las que pasa una instancia de Vue de inicio a fin (destruccion)
 
 ```sh
-beforeCreate: Se ejecuta antes de que se inicie la instancia.
+beforeCreate(): //Se ejecuta antes de que se inicie la instancia.
 ```
 ```sh
-created: La instancia ha sido creada. Aquí se pueden acceder a datos observables y eventos.
+created(): //La instancia ha sido creada. Aquí se pueden acceder a datos observables y eventos.
 ```
 ```sh
-beforeMount: Se llama justo antes de que la instancia se monte en el DOM.
+beforeMount(): //Se llama justo antes de que la instancia se monte en el DOM.
 ```
 ```sh
-mounted: La instancia se ha montado en el DOM. Aquí es seguro acceder al DOM.
+mounted(): //La instancia se ha montado en el DOM. Aquí es seguro acceder al DOM.
 ```
 ```sh
-beforeUpdate: Se llama antes de que los datos de la instancia se actualicen.
+beforeUpdate(): //Se llama antes de que los datos de la instancia se actualicen.
 ```
 ```sh
-updated: Se llama después de que los datos de la instancia se han actualizado.
+updated(): //Se llama después de que los datos de la instancia se han actualizado.
 ```
 ```sh
-beforeDestroy: Se llama justo antes de que la instancia sea destruida.
+beforeDestroy(): //Se llama justo antes de que la instancia sea destruida.
 ```
 ```sh
-destroyed: La instancia ha sido destruida y todos los eventos y observadores han sido eliminados.
+destroyed(): //La instancia ha sido destruida y todos los eventos y observadores han sido eliminados.
 ```
 ## Recommended IDE Setup
 

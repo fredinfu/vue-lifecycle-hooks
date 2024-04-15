@@ -3,6 +3,8 @@
 ## Lifecycle
 
 Etapas por las que pasa una instancia de Vue de inicio a fin (destruccion)
+Ciclo de vida documentacion oficial Vue.JS
+https://vuejs.org/assets/lifecycle.MuZLBFAS.png
 
 ```sh
 beforeCreate(): //Se ejecuta antes de que se inicie la instancia.

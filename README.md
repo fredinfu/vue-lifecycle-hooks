@@ -1,6 +1,24 @@
 # vue-lifecycle
 
-This template should help get you started developing with Vue 3 in Vite.
+## Lifecycle
+
+Etapas por las que pasa una instancia de Vue de inicio a fin (destruccion)
+
+beforeCreate: Se ejecuta antes de que se inicie la instancia.
+
+created: La instancia ha sido creada. Aquí se pueden acceder a datos observables y eventos.
+
+beforeMount: Se llama justo antes de que la instancia se monte en el DOM.
+
+mounted: La instancia se ha montado en el DOM. Aquí es seguro acceder al DOM.
+
+beforeUpdate: Se llama antes de que los datos de la instancia se actualicen.
+
+updated: Se llama después de que los datos de la instancia se han actualizado.
+
+beforeDestroy: Se llama justo antes de que la instancia sea destruida.
+
+destroyed: La instancia ha sido destruida y todos los eventos y observadores han sido eliminados.
 
 ## Recommended IDE Setup
 

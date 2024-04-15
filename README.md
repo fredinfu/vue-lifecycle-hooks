@@ -28,14 +28,6 @@ beforeDestroy(): //Se llama justo antes de que la instancia sea destruida.
 ```sh
 destroyed(): //La instancia ha sido destruida y todos los eventos y observadores han sido eliminados.
 ```
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
 ## Project Setup
 
 ```sh

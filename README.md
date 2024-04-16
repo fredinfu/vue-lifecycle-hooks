@@ -30,7 +30,8 @@ beforeDestroy(): //Se llama justo antes de que la instancia sea destruida.
 ```sh
 destroyed(): //La instancia ha sido destruida y todos los eventos y observadores han sido eliminados.
 ```
-Ejemplo agregando los Hooks
+## Ejemplo agregando los Hooks
+
 ![image](https://github.com/fredinfu/vue-lifecycle-hooks/assets/23424560/abc74a65-a609-4818-aae3-cdac86251733)
 
 ## Project Setup
